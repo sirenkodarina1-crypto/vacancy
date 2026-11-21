@@ -1,0 +1,25 @@
+// Згорнути деталі вакансії
+function hideDetails(number) {
+    let details = document.getElementById("details" + number);
+    details.style.display = "none";
+}
+
+// Показати деталі вакансії
+function showDetails(number) {
+    let details = document.getElementById("details" + number);
+    details.style.display = "block";
+}
+
+// Приховати всю картку
+function hideJob(number) {
+    let job = document.getElementById("job" + number);
+    job.style.display = "none";
+}
+
+// Показати всі 9 вакансій
+function showAllJobs() {
+    for (let i = 1; i <= 9; i++) {
+        let job = document.getElementById("job" + i);
+        job.style.display = "block";
+    }
+}
