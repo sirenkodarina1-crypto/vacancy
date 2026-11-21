@@ -1,0 +1,57 @@
+body {
+    font-family: Arial;
+    background-color: #f0f2f5;
+    text-align: center;
+}
+
+h1 {
+    background-color: #263b5e;
+    color: white;
+    padding: 25px;
+}
+
+h2 {
+    color: #263b5e;
+}
+
+.jobs {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    margin: 30px;
+}
+
+.card {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+}
+
+.card h3 {
+    color: #263b5e;
+}
+
+.card p {
+    text-align: left;
+}
+
+button {
+    background-color: #4267a5;
+    color: white;
+    padding: 8px;
+    border: none;
+    border-radius: 5px;
+    margin: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #263b5e;
+}
+
+@media (max-width: 700px) {
+    .jobs {
+        grid-template-columns: 1fr;
+    }
+}
