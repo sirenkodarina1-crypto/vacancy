@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <title>FirstStep</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1>FirstStep</h1>
+    <p>Знайди свою першу роботу!</p>
+
+    <h2>Наші вакансії</h2>
+
+    <div class="jobs">
+
+        <div class="card" id="job1">
+            <h3>Помічник фотографа</h3>
+            <div id="details1">
+                <p>Оплата: 6000 грн</p>
+                <p>Графік: 3 дні на тиждень</p>
+                <p>Місце: Харків</p>
+                <p>Обов'язки: Допомога фотографу та підготовка фотозони.</p>
+            </div>
+            <button onclick="hideDetails(1)">Згорнути деталі</button>
+            <button onclick="showDetails(1)">Показати деталі</button>
+            <button onclick="hideJob(1)">Приховати вакансію</button>
+        </div>
+
+        <div class="card" id="job2">
+            <h3>SMM-помічник</h3>
+            <div id="details2">
+                <p>Оплата: 7500 грн</p>
+                <p>Графік: 4 години на день</p>
+                <p>Місце: Дистанційно</p>
+                <p>Обов'язки: Створення дописів та пошук ідей.</p>
+            </div>
+            <button onclick="hideDetails(2)">Згорнути деталі</button>
+            <button onclick="showDetails(2)">Показати деталі</button>
+            <button onclick="hideJob(2)">Приховати вакансію</button>
+        </div>
+
+        <div class="card" id="job3">
+            <h3>Помічник у кав'ярні</h3>
+            <div id="details3">
+                <p>Оплата: 8000 грн</p>
+                <p>Графік: 4 години на день</p>
+                <p>Місце: Харків</p>
+                <p>Обов'язки: Допомога працівникам та клієнтам.</p>
+            </div>
+            <button onclick="hideDetails(3)">Згорнути деталі</button>
+            <button onclick="showDetails(3)">Показати деталі</button>
+            <button onclick="hideJob(3)">Приховати вакансію</button>
+        </div>
+
+        <div class="card" id="job4">
+            <h3>Контент-помічник</h3>
+            <div id="details4">
+                <p>Оплата: 5000 грн</p>
+                <p>Графік: 3 години на день</p>
+                <p>Місце: Дистанційно</p>
+                <p>Обов'язки: Підбір фотографій та написання текстів.</p>
+            </div>
+            <button onclick="hideDetails(4)">Згорнути деталі</button>
+            <button onclick="showDetails(4)">Показати деталі</button>
+            <button onclick="hideJob(4)">Приховати вакансію</button>
+        </div>
+
+        <div class="card" id="job5">
+            <h3>Помічник у магазині</h3>
+            <div id="details5">
+                <p>Оплата: 7000 грн</p>
+                <p>Графік: За домовленістю</p>
+                <p>Місце: Харків</p>
+                <p>Обов'язки: Розкладання товарів та допомога покупцям.</p>
+            </div>
+            <button onclick="hideDetails(5)">Згорнути деталі</button>
+            <button onclick="showDetails(5)">Показати деталі</button>
+            <button onclick="hideJob(5)">Приховати вакансію</button>
+        </div>
+
+        <div class="card" id="job6">
+            <h3>Дизайнер-початківець</h3>
+            <div id="details6">
+                <p>Оплата: 6500 грн</p>
+                <p>Графік: Гнучкий</p>
+                <p>Місце: Дистанційно</p>
+                <p>Обов'язки: Створення простих дизайнів та банерів.</p>
+            </div>
+            <button onclick="hideDetails(6)">Згорнути деталі</button>
+            <button onclick="showDetails(6)">Показати деталі</button>
+            <button onclick="hideJob(6)">Приховати вакансію</button>
+        </div>
+
+        <div class="card" id="job7">
+            <h3>Помічник бібліотекаря</h3>
+            <div id="details7">
+                <p>Оплата: 4500 грн</p>
+                <p>Графік: 3 години на день</p>
+                <p>Місце: Харків</p>
+                <p>Обов'язки: Сортування книг та допомога відвідувачам.</p>
+            </div>
+            <button onclick="hideDetails(7)">Згорнути деталі</button>
+            <button onclick="showDetails(7)">Показати деталі</button>
+            <button onclick="hideJob(7)">Приховати вакансію</button>
+        </div>
+
+        <div class="card" id="job8">
+            <h3>Помічник відеомонтажера</h3>
+            <div id="details8">
+                <p>Оплата: 7000 грн</p>
+                <p>Графік: Гнучкий</p>
+                <p>Місце: Дистанційно</p>
+                <p>Обов'язки: Підбір відео та простий монтаж.</p>
+            </div>
+            <button onclick="hideDetails(8)">Згорнути деталі</button>
+            <button onclick="showDetails(8)">Показати деталі</button>
+            <button onclick="hideJob(8)">Приховати вакансію</button>
+        </div>
+
+        <div class="card" id="job9">
+            <h3>Помічник організатора</h3>
+            <div id="details9">
+                <p>Оплата: 5500 грн</p>
+                <p>Графік: За домовленістю</p>
+                <p>Місце: Харків</p>
+                <p>Обов'язки: Допомога в організації заходів.</p>
+            </div>
+            <button onclick="hideDetails(9)">Згорнути деталі</button>
+            <button onclick="showDetails(9)">Показати деталі</button>
+            <button onclick="hideJob(9)">Приховати вакансію</button>
+        </div>
+
+    </div>
+
+    <button onclick="showAllJobs()">Показати всі вакансії</button>
+
+    <script src="script.js"></script>
+</body>
+</html>
